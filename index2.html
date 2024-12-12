@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Криптография</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="crypto-icon">🔐</div>
+        <h1>Криптография</h1>
+        <label for="message">Мәтінді енгізіңіз:</label>
+        <input type="text" id="message" placeholder="Мәтін жазыңыз...">
+        
+        <label for="shift">Ауыстыру қадамын таңдаңыз:</label>
+        <input type="number" id="shift" value="3" min="1">
+        
+        <button onclick="encrypt()">Шифрлау</button>
+        <button onclick="decrypt()">Дешифрлау</button>
+        
+        <h3>Нәтиже:</h3>
+        <textarea id="result" readonly placeholder="Нәтиже осында көрсетіледі"></textarea>
+        <div class="footer">
+            <p>© 2024 Криптография Баешова Мадина. <a href="#">Құпиялылық саясаты</a></p>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
